@@ -1,1 +1,5 @@
-{}
+{
+    "minimumReleaseAge": "30 days",
+    "internalChecksFilter": "strict",
+    "dependencyDashboard": true
+}
