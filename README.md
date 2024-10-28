@@ -7,9 +7,7 @@ Reproduction for issue https://github.com/renovatebot/renovate/discussions/32177
 Pull request for `logback-classic:1.5.12` is created, despite release not having passed `minimumReleaseAge` condition:
 ![image](https://github.com/user-attachments/assets/d134fc67-bcba-476b-b020-80155bab1c53)
 
-Full logs
-
-<detail><summary> Full logs </summary>
+<details><summary>Full logs</summary>
 
 ```
 DEBUG: Using RE2 regex engine
@@ -1009,7 +1007,7 @@ INFO: Repository finished
 }
 ```
 
-</detail>
+</details>
 
 ## Expected behavior
 
