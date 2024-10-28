@@ -1,17 +1,15 @@
-# minimal-reproduction-template
+# 32177
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for issue https://github.com/renovatebot/renovate/discussions/32177
 
 ## Current behavior
 
-Explain the current behavior here.
+Pull request for `logback-classic:1.5.12` is created, despite release not having passed `minimumReleaseAge` condition.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Pull request for `logback-classic:1.5.12` is not created until `minimumReleaseAge` period has passed.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/32177
