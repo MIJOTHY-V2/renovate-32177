@@ -4,7 +4,7 @@ Reproduction for issue https://github.com/renovatebot/renovate/discussions/32177
 
 ## Current behavior
 
-Pull request for `logback-classic:1.5.12` is created, despite release not having passed `minimumReleaseAge` condition:
+Branch and pull request for `logback-classic:1.5.12` is created, despite release not having passed `minimumReleaseAge` condition:
 ![image](https://github.com/user-attachments/assets/d134fc67-bcba-476b-b020-80155bab1c53)
 
 <details><summary>Full logs</summary>
@@ -1011,7 +1011,7 @@ INFO: Repository finished
 
 ## Expected behavior
 
-Pull request for `logback-classic:1.5.12` is not created until `minimumReleaseAge` period has passed.
+Neither a branch nor a pull request for `logback-classic:1.5.12` are created until the `minimumReleaseAge` period has passed.
 
 ## Link to the Renovate issue or Discussion
 
