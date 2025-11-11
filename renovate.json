@@ -2,6 +2,8 @@
   "minimumReleaseAge": "30 days",
   "internalChecksFilter": "strict",
   "dependencyDashboard": true,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "npmrc": null,
   "packageRules": [
     {
