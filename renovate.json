@@ -1,5 +1,56 @@
 {
-    "minimumReleaseAge": "30 days",
-    "internalChecksFilter": "strict",
-    "dependencyDashboard": true
+  "minimumReleaseAge": "30 days",
+  "internalChecksFilter": "strict",
+  "dependencyDashboard": true,
+  "npmrc": null,
+  "packageRules": [
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchPackageNames": [
+        "*"
+      ]
+    },
+    {
+      "description": "Blocked by https://github.com/rjsf-team/react-jsonschema-form/issues/4538",
+      "matchManagers": [
+        "npm"
+      ],
+      "enabled": false,
+      "matchPackageNames": [
+        "@mui/icons-material",
+        "@mui/material"
+      ]
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackageNames": [
+        "/^node/"
+      ]
+    },
+    {
+      "matchManagers": [
+        "nvm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackageNames": [
+        "*"
+      ]
+    }
+  ]
 }
