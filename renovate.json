@@ -7,6 +7,15 @@
   "npmrc": null,
   "packageRules": [
     {
+      "groupName": "JS/TS dependencies",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ]
+    },
+    {
       "matchManagers": [
         "npm"
       ],
