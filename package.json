@@ -11,7 +11,7 @@
     "@emotion/styled": "^11.10.6",
     "@gorules/jdm-editor": "^1.5.2",
     "@monaco-editor/react": "^4.6.0",
-    "@mui/icons-material": "^6.0.0",
+    "@mui/icons-material": "^7.0.0",
     "@mui/lab": "^5.0.0-alpha.144",
     "@mui/material": "^6.0.0",
     "@mui/x-charts": "^8.3.1",
